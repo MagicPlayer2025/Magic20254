@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0f10"/>
+      <stop offset="45%" stop-color="#2a211b"/>
+      <stop offset="100%" stop-color="#6f5230"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="70%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#d7b887" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#d7b887" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <g opacity=".18" stroke="#f6e5c2" stroke-width="2">
+    <path d="M1190 150c-150 120-205 310-182 520"/>
+    <path d="M1240 210c-90 150-125 295-115 465"/>
+    <path d="M1090 180c-55 120-72 265-45 398"/>
+  </g>
+  <g transform="translate(1080 170)">
+    <circle cx="140" cy="140" r="118" fill="#1a1a1a" fill-opacity=".42"/>
+    <path d="M65 68c25 8 48 28 62 55l-34 16c-11-19-28-31-48-37z" fill="#f3d19b"/>
+    <path d="M198 64c-24 9-44 29-58 57l35 14c10-18 26-30 44-36z" fill="#eed09c"/>
+    <path d="M122 114h26v110c0 17-14 31-31 31s-31-14-31-31c0-10 5-19 12-24l24 13z" fill="#f5e1bf"/>
+    <path d="M157 114h26v110c0 17-14 31-31 31s-31-14-31-31c0-10 5-19 12-24l24 13z" fill="#d6b07d"/>
+    <circle cx="118" cy="253" r="14" fill="#f5e1bf"/>
+    <circle cx="152" cy="253" r="14" fill="#d6b07d"/>
+  </g>
+  <g fill="#ffffff" fill-opacity=".09">
+    <circle cx="240" cy="190" r="90"/>
+    <circle cx="320" cy="730" r="130"/>
+    <circle cx="1520" cy="710" r="170"/>
+  </g>
+</svg>
